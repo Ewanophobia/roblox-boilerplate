@@ -1,8 +1,11 @@
-local Log = require("@Common/Log")
+local TestService = {}
 
-local function Start()
-	Log.info("Hello from TestService!")
+function TestService:Init()
+	print("I've initialised")
 end
 
-Start()
-return nil
+function TestService:Start()
+	print("I've started")
+end
+
+return TestService

@@ -1,5 +1,5 @@
 local function Start()
-	require("@Services/TestService")
+	require("@Services/TestService"):Start()
 end
 
 Start()

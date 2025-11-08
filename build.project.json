@@ -1,5 +1,5 @@
 {
-    "name": "RobloxProjectTemplate",
+    "name": "roblox-template",
     "emitLegacyScripts": false,
     "tree": {
         "$className": "DataModel",

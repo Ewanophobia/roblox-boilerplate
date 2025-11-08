@@ -1,5 +1,5 @@
 {
-    "name": "RobloxProjectTemplate",
+    "name": "roblox-template",
     "emitLegacyScripts": false,
     "tree": {
         "$className": "DataModel",
@@ -7,11 +7,17 @@
             "Packages": {
                 "$path": "Packages"
             },
-            "Client": {
-                "$path": "src/Client"
-            },
             "Common": {
                 "$path": "src/Common"
+            },
+            "Assets": {
+                "$path": "assets"
+            },
+            "Library": {
+                "$path": "lib"
+            },
+            "Client": {
+                "$path": "src/Client"
             }
         },
         "ServerScriptService": {
